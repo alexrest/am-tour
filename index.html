@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Article preview · Content studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="studio-header"><div class="brand"><span class="brand-icon" aria-hidden="true">▤</span> Content studio <span class="divider"></span><span class="muted">Article preview</span></div><span class="poc">PROOF OF CONCEPT</span></header>
+  <main class="workspace">
+    <aside class="controls" aria-label="Preview controls">
+      <div class="intro"><span class="eyebrow">MAKE IT YOUR OWN</span><h1>One page. <br>Different possibilities.</h1><p>Mix an image with an article to see<br class="desktop-break"> your content in context.</p></div>
+      <section aria-labelledby="images-label"><div class="section-heading"><h2 id="images-label"><span>01</span> Hero image</h2><span class="selection-note">Choose one</span></div><div class="image-grid" id="image-options"></div></section>
+      <section aria-labelledby="text-label"><div class="section-heading"><h2 id="text-label"><span>02</span> Article text</h2><span class="selection-note">Choose one</span></div><div class="text-options" id="text-options"></div></section>
+      <div class="controls-footer"><button class="reset" id="reset" type="button">↺ <span>Reset preview</span></button><p>Images and text can be mixed independently.<br>Article copy is sample content for this demo.</p></div>
+    </aside>
+    <section class="preview-area" aria-label="Page preview">
+      <div class="preview-heading"><span><span class="live-dot"></span> LIVE PREVIEW</span><a href="https://www.jw.org/en/library/series/more-topics/meeting-mankinds-energy-needs/" target="_blank" rel="noreferrer">View reference ↗</a></div>
+      <div class="page-frame">
+        <div class="site-header"><img class="jw-logo" src="assets/jw-org.svg" alt="JW.ORG" width="50" height="50"><div class="site-icons" aria-hidden="true"><span class="asset-icon icon-language"></span><span class="asset-icon icon-magnifying-glass"></span><svg viewBox="0 0 24 24"><path d="M3 5h18M3 12h18M3 19h18"/></svg></div></div>
+        <div class="site-toolbar"><span class="breadcrumb">‹ &nbsp;More Topics</span><div class="site-icons" aria-hidden="true"><span class="asset-icon icon-headphones"></span><span class="asset-icon icon-share"></span><span>•••</span></div></div>
+        <div class="language-row"><span>READ IN</span><div class="language-display">English <span aria-hidden="true">⌄</span></div></div>
+        <article><img class="hero" id="hero" src="assets/energy.jpg" alt="An illustrated landscape of energy sources including wind turbines and solar panels." width="1200" height="600"><div class="article-content" id="article-content"></div></article>
+        <div class="site-footer">JW.ORG <span>Article layout preview</span></div>
+      </div>
+      <div class="preview-caption" id="preview-status" role="status" aria-live="polite" aria-atomic="true"></div>
+    </section>
+  </main>
+</body>
+</html>

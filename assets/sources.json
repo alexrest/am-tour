@@ -1,0 +1,18 @@
+{
+  "energy": {
+    "page": "https://www.jw.org/en/library/series/more-topics/meeting-mankinds-energy-needs/",
+    "image": "https://cms-imgp.jw-cdn.org/img/p/501100127/univ/art/501100127_univ_lsr_xl.jpg"
+  },
+  "study": {
+    "page": "https://www.jw.org/en/bible-teachings/teenagers/ask/after-baptism-keep-up-activity/",
+    "image": "https://cms-imgp.jw-cdn.org/img/p/500600116/univ/art/500600116_univ_lsr_xl.jpg"
+  },
+  "deaf": {
+    "page": "https://www.jw.org/en/library/series/more-topics/how-god-cares-for-deaf/",
+    "image": "https://cms-imgp.jw-cdn.org/img/p/501100074/univ/art/501100074_univ_lsr_xl.jpg"
+  },
+  "diet": {
+    "page": "https://www.jw.org/en/library/series/more-topics/food-safety-healthy-diet/",
+    "image": "https://cms-imgp.jw-cdn.org/img/p/501100003/univ/art/501100003_univ_lsr_xl.jpg"
+  }
+}
